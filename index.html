@@ -8,10 +8,11 @@
 <body>
   <header class="page-header">
     <h1 class="visually-hidden">Коллеция часов Conquest</h1>
-    <a class="page-header__logo logo">
-      <img class="logo__img" src="" alt="Логотип" width="103" height="26">
-    </a>
     <nav class="page-header__main-nav main-nav">
+      <a class="main-nav__logo logo">
+        <img class="logo__img" src="" alt="Логотип" width="103" height="26">
+      </a>
+
       <ul class="main-nav__list">
         <li class="main-nav__item">
           <a class="main-nav__link" href="#">Каталог</a>
@@ -44,9 +45,9 @@
   <main class="main">
     <section class="promo">
       <h2 class="promo__title">Весна/Лето 2019</h2>
-      <div class="promo__sub-title">Коллекция</div>
+      <p class="promo__sub-title">Коллекция</p>
       <p class="promo__description">Швейцарские часы в наличии в Москве и с доставкой по всему миру</p>
-      <button class="promo__button button" type="button">Смотреть каталог</button>
+      <a class="promo__button button" type="button">Смотреть каталог</a>
       <img class="promo__img" src="" alt="Тёмные часы с сапфировым стеклом из новой коллекции" width="502" height="804">
       <span class="promo__price">22 000
         <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +99,7 @@
           <div class="advantages__right">
             <h3 class="advantages__title">Подлинное качество</h3>
             <p class="advantages__description">Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.</p>
-            <button class="advantages__button button" type="button">Смотреть каталог</button>
+            <a class="advantages__button button" type="button">Смотреть каталог</a>
           </div>
         </li>
       </ul>
@@ -113,7 +114,7 @@
       <h2 class="visually-hidden">Подписка на новости</h2>
       <div class="news-company__left">
         <p class="news-company__text">Следите за нашими новостями</p>
-        <p class="news-company__description">Подписывайтесь на @conquest_watch в соцсетях и узнавайте о новинках и акциях первыми.</p>
+        <p class="news-company__description">Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и узнавайте о новинках и акциях первыми.</p>
         <section class="news-company__socials socials">
           <h2 class="visually-hidden">Наши социальные сети</h2>
 
@@ -139,7 +140,9 @@
   </main>
   <footer class="page-footer">
     <div class="page-footer__column page-footer-column--logo">
-      <img class="page-footer__logo logo" src="" alt="Логотип" width="103" height="26">
+      <a class="page-footer__logo logo" href="#">
+        <img class="page-footer__logo logo" src="" alt="Логотип" width="103" height="26">
+      </a>
       <div class="page-footer__wrapper">
         <a class="page-footer__link" href="tel:+784994504797">8 (499) 450-47-97</a>
         <a class="page-footer__link" href="mailto:info@conquest.watch.ru">info@conquest.watch.ru</a>
